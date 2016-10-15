@@ -1,29 +1,24 @@
-<<<<<<< HEAD
-# README
+# Megabites
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Collaborative food ordering for university dorms, apartment buildings, and 
+office spaces. 
 
-Things you may want to cover:
+Built for Tufts University Polyhack 2016.
 
-* Ruby version
+Team members:
+Lexi Galantino
+Siddharth Kapoor
+Sophie Danielpour
+Henri Schmidt
+Evgeni Dobranov
+Ashley Smith
+Hannah Voelker
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# megabites 🍔🍕🌮
-Collaborative food ordering for university dorms, apartment buildings, and office spaces. Built for Tufts University Polyhack 2016.
->>>>>>> 0e33a1237bc7108013d6d582b1f46de636ca40cd
+Technologies:
+Ruby on Rails
+Bootstrap
+HTML
+CSS
+JavaScript
+(JSON)
+Heroku
