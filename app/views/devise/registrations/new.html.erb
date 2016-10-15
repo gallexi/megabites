@@ -15,12 +15,17 @@
     <%= f.text_field :name %>
   </div>
 
+
   <div class="field">
+  <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
     <%= f.label :organization_id %><br />
     <%= f.hidden_field :organization_id %>
     <% Organization.all do |o| %>
     <%= o.name %>
     <% end %>
+  </div>
   </div>
 
   <div class="field">
