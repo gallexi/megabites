@@ -3,7 +3,7 @@
 </br>
 <div class = "chatpage">
 <div class="order-details">
-	<strong>Your Heard:</strong> </br>
+	<strong>Your Herd:</strong> </br>
 	<% if not @negotiation.customers.nil? %> 
 		<% @negotiation.customers.split(",").map{ |s| s.to_i}.each do |c_id| %>
 		<% c = User.find(c_id) %>
