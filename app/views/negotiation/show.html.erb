@@ -1,9 +1,23 @@
 </br>
 </br>
 </br>
-
+<div class = "chatpage">
 <div class="order-details">
-	<%= @negotiation.food_items %>
+	<strong>Your Herd:</strong> </br>
+	<% if not @negotiation.customers.nil? %> 
+		<% @negotiation.customers.split(",").map{ |s| s.to_i}.each do |c_id| %>
+		<% c = User.find(c_id) %>
+		<%= c.name %></br>
+		<% end %>
+	<% end %><br>
+
+	<%= @negotiation.order_from %> </br>
+	<%= @negotiation.food_items %> </br>
+	<%= @negotiation.rendezvous_point %> </br></br>
+</div></br>
+
+<div>
+	<%= link_to 'Leave', negotiation_leave_path(id: @negotiation.id)%>
 </div>
 
 <div class="group-chat">
@@ -17,4 +31,5 @@
 	</div>
 
 	
+</div>
 </div>

@@ -1,5 +1,4 @@
 <% @negotiations.each do |n| %>
-	<%= link_to negotiation_join_path do %>
 	<div class="col-xs-6 col-lg-4">
 	<div class="panel panel-default">
 	<div class="panel-heading">
@@ -7,9 +6,14 @@
 	</div>
 	<div class="panel-body">
               	<%= n.food_items %>
-              	<p><a class="btn btn-default" href="#" role="button">Join</a></p>
+
+              	<% if (n.user_id == current_user.id or n.is_customer?(current_user.id)) %>
+              	<%= link_to 'Track', negotiation_path(id: n.id), class: "btn btn-danger"%>
+              	<% else %>
+              	<%= link_to 'Join', negotiation_join_path(id: n.id), class: "btn btn-default"%>
+              	<% end %>
+              	
         </div>
 	</div>
         </div><!--/.col-xs-6.col-lg-4-->
-        <% end %>
 <% end %>

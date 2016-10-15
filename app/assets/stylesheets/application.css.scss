@@ -15,3 +15,30 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.signup {
+	text-align: left;
+	padding-left: 40%;
+	padding-right: 40%;
+}
+
+.textbox {
+	margin-bottom: 10px;
+}
+
+.dropdown {
+	background-color: white;
+	font-color: black;
+}
+
+.chatpage {
+	padding-left: 5%;
+}
+
+#login-panel-header {
+        background-color: white;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+}

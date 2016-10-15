@@ -11,11 +11,15 @@ Rails.application.routes.draw do
 
   get 'pages/update_location' => 'pages#update_location'
 
+  get 'negotiation/join' => 'negotiation#join'
+
+  get 'negotiation/leave' => 'negotiation#leave'
+
   resources :negotiation
   post 'negotiation/new' => 'negotiation#create', as: 'negotiation2'
 
   post 'negotiation/new_message' => 'negotiation#new_message'
 
-  post 'negotiation/join' => 'negotiation#join'
+
 
 end
