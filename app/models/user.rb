@@ -5,6 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
   belongs_to :organization
   has_many :orders
+  has_many :negotiations
   belongs_to :location
 
 end

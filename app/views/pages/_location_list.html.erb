@@ -1,0 +1,14 @@
+<% @locations.each do |l| %>
+	<div>
+		
+		<% if l.id == @user.location_id %>
+			<% a_class = "list-group-item active" %>
+		<% else %>
+			<% a_class = "list-group-item" %>
+		<% end %>
+
+		<%= link_to pages_update_location_path, {:controller => "pages", :action => "update_location", :new_location => l.id}, class: a_class, remote: true do %>
+			<%= l.name %> 
+		<% end %>
+	</div>
+	<% end %>

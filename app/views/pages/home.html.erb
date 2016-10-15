@@ -1,1 +1,16 @@
-Hello world
+
+<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+        <div class="list-group">
+		<%= render 'location_list' %>
+	</div>
+</div
+
+</br>
+
+<% @negotiations.each do |o| %>
+	<div>
+		<%= o.food_items %>
+	</div>
+<% end %>
+
+YES
