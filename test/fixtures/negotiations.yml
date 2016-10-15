@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order_from: MyString
+  order_from_agreed: 
+  food_items: MyText
+  food_items_agreed: 
+  rendezvous_point: MyString
+  rendezvous_agreed: 
+  user_id: 1
+  customers: MyText
+
+two:
+  order_from: MyString
+  order_from_agreed: 
+  food_items: MyText
+  food_items_agreed: 
+  rendezvous_point: MyString
+  rendezvous_agreed: 
+  user_id: 1
+  customers: MyText
