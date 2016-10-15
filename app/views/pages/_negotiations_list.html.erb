@@ -1,4 +1,5 @@
 <% @negotiations.each do |n| %>
+	<%= link_to negotiation_join_path do %>
 	<div class="col-xs-6 col-lg-4">
 	<div class="panel panel-default">
 	<div class="panel-heading">
@@ -10,4 +11,5 @@
         </div>
 	</div>
         </div><!--/.col-xs-6.col-lg-4-->
+        <% end %>
 <% end %>

@@ -18,6 +18,10 @@ class NegotiationController < ApplicationController
     		end
 	end
 
+	def join
+
+	end
+
 	def show
 		@negotiation = Negotiation.find(params[:id])
 		@messages = @negotiation.messages

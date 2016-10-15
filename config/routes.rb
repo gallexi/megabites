@@ -16,4 +16,6 @@ Rails.application.routes.draw do
 
   post 'negotiation/new_message' => 'negotiation#new_message'
 
+  post 'negotiation/join' => 'negotiation#join'
+
 end
