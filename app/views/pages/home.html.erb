@@ -1,13 +1,30 @@
+<div class="container">
 
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Megabites</h1>
+           <!-- <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p> -->
+          </div>
+</br>
+
+<div class = "row">
 <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
         <div class="list-group">
 		<%= render 'location_list' %>
 	</div>
-</div
-
-</br>
+</div>
+</div>
+</div>
 
 <div id="main">
-<%= render 'negotiations_list' %>
-<div>
-YES
+<div class = "row">
+	<%= render 'negotiations_list' %>
+</div>
+</div>
+</div>
+</div>

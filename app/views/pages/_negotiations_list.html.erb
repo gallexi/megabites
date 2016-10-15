@@ -1,5 +1,13 @@
-<% @negotiations.each do |o| %>
-	<div>
-		<%= o.food_items %>
+<% @negotiations.each do |n| %>
+	<div class="col-xs-6 col-lg-4">
+	<div class="panel panel-default">
+	<div class="panel-heading">
+		<%= n.order_from %>
 	</div>
+	<div class="panel-body">
+              	<%= n.food_items %>
+              	<p><a class="btn btn-default" href="#" role="button">Join</a></p>
+        </div>
+	</div>
+        </div><!--/.col-xs-6.col-lg-4-->
 <% end %>
