@@ -1,0 +1,911 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find",
+				"find-formula-true-asst"
+			],
+			[
+				"pr",
+				"primitive"
+			],
+			[
+				"new",
+				"new-cur"
+			],
+			[
+				"ca",
+				"car"
+			],
+			[
+				"for",
+				"formula"
+			],
+			[
+				"cal",
+				"calc-s-exp"
+			],
+			[
+				"calc",
+				"calc-s-exp"
+			],
+			[
+				"tru",
+				"truth-value"
+			],
+			[
+				"tail",
+				"tail-rec-qsort"
+			],
+			[
+				"not",
+				"not-greater"
+			],
+			[
+				"com",
+				"compare"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"t",
+				"two-digits"
+			],
+			[
+				"tw",
+				"two-digits"
+			],
+			[
+				"se",
+				"set-definition"
+			],
+			[
+				"check",
+				"check-expect"
+			],
+			[
+				"fold",
+				"foldr"
+			],
+			[
+				"s",
+				"satisfied"
+			],
+			[
+				"exists",
+				"exists-counter"
+			],
+			[
+				"exis",
+				"exists-counter"
+			],
+			[
+				"coun",
+				"count-cars"
+			],
+			[
+				"succ",
+				"successors-map-of-edge-list"
+			],
+			[
+				"suc",
+				"successors-map-of-edge-list-helper"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"paddn",
+				"padding-left"
+			],
+			[
+				"re",
+				"report-comment-menu"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"comm",
+				"comment-reply-form"
+			],
+			[
+				"co",
+				"comment-1"
+			],
+			[
+				"gues",
+				"guest-profile-picture-on-reply-form"
+			],
+			[
+				"comment",
+				"comment-1"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"sub",
+				"subcomments_displayed"
+			],
+			[
+				"sess",
+				"session"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"come",
+				"comments"
+			],
+			[
+				"comments",
+				"comments_displayed"
+			],
+			[
+				"show",
+				"show_more_comments"
+			],
+			[
+				"commne",
+				"comments_displayed"
+			],
+			[
+				"comme",
+				"comments_displayed"
+			],
+			[
+				"commen",
+				"comments_displayed"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"borde",
+				"border-style"
+			],
+			[
+				"gu",
+				"guest_profile_path"
+			],
+			[
+				"omniau",
+				"omniauth-twitter"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"button",
+				"button_to"
+			],
+			[
+				"ne",
+				"nest_level"
+			],
+			[
+				"attr",
+				"attr_accessible"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"fil",
+				"filter_value"
+			],
+			[
+				"fi",
+				"filter_by"
+			],
+			[
+				"col",
+				"column_names"
+			],
+			[
+				"series",
+				"series_id"
+			],
+			[
+				"tit",
+				"titleize"
+			],
+			[
+				"sor",
+				"sort_column"
+			],
+			[
+				"icon",
+				"icon_name"
+			],
+			[
+				"tab",
+				"tab_class_name"
+			],
+			[
+				"sort",
+				"sort_direction"
+			],
+			[
+				"or",
+				"order_by"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"de",
+				"destroy"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"dele",
+				"delete_selected"
+			],
+			[
+				"des",
+				"destroy_multiple"
+			],
+			[
+				"Section",
+				"section_id"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"section",
+				"section_id"
+			],
+			[
+				"no",
+				"no-img"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"wid",
+				"widgets"
+			],
+			[
+				"home",
+				"home-page-grid"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"cur",
+				"current_user"
+			],
+			[
+				"curr",
+				"current_user"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"i",
+				"list-item"
+			],
+			[
+				"d",
+				"data-link"
+			],
+			[
+				"Ai",
+				"Ailerons-Typeface"
+			],
+			[
+				"ass",
+				"asset_host"
+			],
+			[
+				"ac",
+				"action_controller"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"post-s",
+				"post-show-page-cover"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"me",
+				"menu_width"
+			],
+			[
+				"bo",
+				"border-style"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"image",
+				"image_deleted"
+			],
+			[
+				"la",
+				"layout"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"updat",
+				"updated"
+			],
+			[
+				"dee",
+				"deep_merge"
+			],
+			[
+				"pre",
+				"previous_step"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"ses",
+				"session"
+			],
+			[
+				"current",
+				"current_step"
+			],
+			[
+				"fir",
+				"first_step"
+			],
+			[
+				"post_",
+				"post_params"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"su",
+				"submitted"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1476417485/tufts_homework_server/h/skapoo01/Desktop/comp105/hw4/README",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1476417544/tufts_dell24_eecs_server/h/skapoo01/Desktop/comp105/hw2/build-prove-compare/README",
+		"/Users/siddharthkapoor/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1475047683/tufts_homework_server/h/skapoo01/Desktop/comp170/hw2/p1.txt",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1475047759/tufts_homework_server/h/skapoo01/Desktop/comp170/hw1/p1.txt",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1474442244/tufts_homework_server/h/skapoo01/Desktop/comp170/hw2/p1.txt",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1474443442/tufts_homework_server/h/skapoo01/Desktop/comp170/hw2/p3.txt",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1473992779/tufts_dell24_eecs_server/h/skapoo01/Desktop/comp105/hw1/solution.imp",
+		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1473963867/tufts_homework_server/h/skapoo01/Desktop/comp105/hw1/solution.imp",
+		"/Users/siddharthkapoor/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/tufts_homework_server",
+		"/Users/siddharthkapoor/Desktop/Web Projects/Project RentAll/Gemfile.lock",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/models/comment.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/Gemfile",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/comments/show_more_replies.js.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/models/count.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/show_more_comments.js.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/helpers/posts_helper.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/comments/show_more.js.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/comments/_comment_reply_form.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/javascripts/comment_reply.js.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/models/post.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/controllers/posts_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/helpers/application_helper.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/prettyCheckboxes.css",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/images/down_arrow.gif",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/comments/_comment_display.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/database.yml",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/controllers/comments_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160817063542_create_comments.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/lib/tasks/kill_postgres_connections.rake",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160629191807_create_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/locales/en.yml",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/users/new1.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/layouts/application.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160713045609_add_columns_to_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/routes.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/controllers/application_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/_private_form_elems_step.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/_form.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/action.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/helpers/pages_helper.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/show.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/controllers/pages_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/pages/tabs.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/pages/home.html.erb",
+		"/Users/siddharthkapoor/Downloads/up_arrow.gif",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/models/section.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160710225017_add_section_id_column_to_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/collections/table.overrides",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/javascripts/application.js",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/javascripts/semantic_ui/semantic_ui.js",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/elements/input.overrides",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/elements/divider.overrides",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/index.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/models/user.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/environments/development.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/environments/production.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/devise/registrations/new.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/devise/sessions/new.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/controllers/users_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/users/index.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/initializers/devise.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/devise/registrations/edit.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160708184206_add_devise_to_users.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160709170447_add_column_to_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/users/new.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160708171153_set_user_admin_and_active_defaults.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160708155910_create_users.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/application.css.scss",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/aws.yml",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/.gitignore",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/application.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/initializers/assets.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/fonts/Debby.ttf",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/fonts.css.scss",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/scaffolds.scss",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/javascripts/postjs.js",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/collections/menu.overrides",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/elements/button.overrides",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/froala-plugins.css",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/javascripts/froala-plugins.js",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/new.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/_private_form_elems",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/_public_form_elems_step.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/views/posts/edit.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160630062319_add_author_date_composed_to_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/db/migrate/20160701050931_add_attachment_cover_image_to_posts.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/config/initializers/session_store.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/semantic_ui.css",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/stylesheets/application.css",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/assets/stylesheets/semantic_ui/config/elements/button.variables",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/dustandsepia.com_v1",
+		"/Users/siddharthkapoor/Desktop/Web Projects/incidents_portal/comp120-spring2016-team4/public/assets/.sprockets-manifest-3659ddd95c646af16123cfc09d22aad0.json",
+		"/Users/siddharthkapoor/.gitconfig",
+		"/Users/siddharthkapoor/Desktop/Web Projects/incidents_portal/comp120-spring2016-team4/app/models/user.rb",
+		"/usr/local/Cellar/postgresql/9.5.0/homebrew.mxcl.postgresql.plist",
+		"/usr/local/Cellar/postgresql/9.5.0/bin/pg_config",
+		"/usr/local/Cellar/postgresql/9.5.0/bin/postgres",
+		"/usr/local/Cellar/postgresql/9.5.0/bin/psql",
+		"/Users/siddharthkapoor/Desktop/Web Projects/sample_app/Procfile",
+		"/private/etc/profile",
+		"/private/etc/paths",
+		"/Users/siddharthkapoor/.bash_profile",
+		"/Users/siddharthkapoor/.profile",
+		"/Users/siddharthkapoor/Desktop/Web Projects/incidents_portal/comp120_project/comp120-spring2016-team4/web: bundle exec rails server -p $PORT",
+		"/Users/siddharthkapoor/Desktop/Web Projects/ruby-getting-started/Gemfile",
+		"/Users/siddharthkapoor/Desktop/Web Projects/ruby-getting-started/config/puma.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/bin/spring",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/config/routes.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/app/views/welcome/index.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/config.ru",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/Rakefile",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/README.rdoc",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/Gemfile.lock",
+		"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com/Gemfile",
+		"/Users/siddharthkapoor/Desktop/Web Projects/Sample Blog/README.rdoc",
+		"/Users/siddharthkapoor/Desktop/Web Projects/Sample Blog/Gemfile.lock",
+		"/Users/siddharthkapoor/Desktop/Web Projects/Sample Blog/config.ru"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1",
+			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/images",
+			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/images",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cdar",
+			"cur",
+			"primiti",
+			"symbol",
+			"primiti",
+			"symbol",
+			"primitive?",
+			"primitive",
+			"fail",
+			"cdar",
+			"find-all-for",
+			"find-all",
+			"primitive",
+			"success",
+			"append",
+			"length",
+			"length ",
+			"car xs",
+			"quicksort",
+			"car xs",
+			"output",
+			"trial",
+			"sqlite3",
+			"show-more-co",
+			"secondary",
+			"current_step",
+			"session[:comments_displayed]",
+			"comments_displ",
+			"comments_dis",
+			"session",
+			"post_id",
+			"enable_comments",
+			"gree",
+			"session",
+			"nest_",
+			"button",
+			"commentable",
+			";\n",
+			"post-show",
+			"search",
+			"border-sty",
+			"down",
+			"down_arrow",
+			"up_arrow",
+			"pagina",
+			"registerable",
+			"registe",
+			"set_post",
+			"field",
+			"post",
+			"before_action",
+			"end",
+			"usernam",
+			"sign_up",
+			"index",
+			"searc",
+			"blue",
+			"ui.primary.but",
+			"min",
+			"min-width",
+			"min-wdith",
+			";",
+			"'=",
+			"require",
+			"solid",
+			"amazon",
+			"config.assets.precompile",
+			"show-page",
+			"previ",
+			"f2f2f2",
+			"%;\n",
+			"notice",
+			"back",
+			"border",
+			";\n",
+			"post-show-page-cover",
+			"back",
+			"back_",
+			"back",
+			"end",
+			"first_step?",
+			"redirec",
+			"session",
+			"match",
+			"mat",
+			"ranged_datetime",
+			"require",
+			"simple_form",
+			"calend",
+			"grid",
+			"menu",
+			"active",
+			"ui.inverted.secon",
+			"ui.inverted",
+			"pointin",
+			"pointing",
+			"ui inverted",
+			"item",
+			"font",
+			"reported_incidents_link",
+			"inci",
+			"api_doc_menu_item",
+			"api",
+			"api-docs-menu-item",
+			"api",
+			"tab",
+			"tabs",
+			"tab",
+			"redire",
+			"logged_in_user",
+			"api",
+			"logout",
+			"field",
+			"filed",
+			"env",
+			"git",
+			"active",
+			"active_re",
+			"activerec"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"symbol?",
+			"symbol"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.520664915117,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true
+}
