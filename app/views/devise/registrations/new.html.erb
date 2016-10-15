@@ -18,7 +18,7 @@
 
   <div class="field">
   <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><%= f.label :organization_id %><br />
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Organization<br />
   <span class="caret"></span></button>
     <%= f.hidden_field :organization_id %>
     <ul>
@@ -54,3 +54,7 @@
 
 <%= render "devise/shared/links" %>
 </div>
+
+<script>
+$('.dropdown-toggle').dropdown();
+</script>
