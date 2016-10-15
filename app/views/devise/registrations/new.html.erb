@@ -18,13 +18,14 @@
 
   <div class="field">
   <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><%= f.label :organization_id %><br />
   <span class="caret"></span></button>
-    <%= f.label :organization_id %><br />
     <%= f.hidden_field :organization_id %>
+    <ul>
     <% Organization.all do |o| %>
-    <%= o.name %>
+    <li><%= o.name %></li>
     <% end %>
+    </ul>
   </div>
   </div>
 
