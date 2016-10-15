@@ -7,7 +7,7 @@
 			<% a_class = "list-group-item" %>
 		<% end %>
 
-		<%= link_to pages_update_location_path, {:controller => "pages", :action => "update_location", :new_location => l.id}, class: a_class, remote: true do %>
+		<%= link_to pages_update_location_path(new_location: l.id), class: a_class, remote: true do %>
 			<%= l.name %> 
 		<% end %>
 	</div>
