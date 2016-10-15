@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  items_ordered: MyText
+  order_from: MyString
+  rendezvous_point: MyString
+  user_id: 1
+
+two:
+  items_ordered: MyText
+  order_from: MyString
+  rendezvous_point: MyString
+  user_id: 1
