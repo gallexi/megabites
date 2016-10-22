@@ -17,16 +17,16 @@
 
 
   <div class="field">
-  <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Organization<br />
-  <span class="caret"></span></button>
-    <%= f.hidden_field :organization_id %>
-    <ul>
-    <% Organization.all do |o| %>
-    <li><%= o.name %></li>
-    <% end %>
-    </ul>
+    <%= f.label :organization %><br />
+    <%= f.collection_select :organization_id, Organization.order(:name),:id,:name %>
+    </br>
   </div>
+
+
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.collection_select :location_id, Location.order(:name),:id,:name %>
+    </br>
   </div>
 
   <div class="field">
