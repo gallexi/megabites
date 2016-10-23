@@ -36,7 +36,8 @@ class NegotiationController < ApplicationController
 			if not @negotiation.customers.nil?
 				c = @negotiation.customers.split(",").map{ |s| s.to_i }
 				c.delete(current_user.id)
-				if not @negotiation.customers.nil?
+                                @negotiation.customers = c.join(",") #changed
+				if not @negotiation.customers === ""  #changed
 					@negotiation.user_id = c.first
 					redirect_to root_path
 				else
@@ -49,14 +50,15 @@ class NegotiationController < ApplicationController
 			if not @negotiation.customers.nil?
 				c = @negotiation.customers.split(",").map{ |s| s.to_i }
 				c.delete(current_user.id)
-				if not @negotiation.customers.nil?
+                                @negotiation.customers = c.join(",") #changed
+				if not @negotiation.customers === "" #changed
 					@negotiation.user_id = c.first
 					redirect_to root_path
 				else
 					redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
 				end
 			else
-				redirect_to negotiation_path(id: @negotiation.id), :method => "delete"	
+				redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
 			end
 		end
 		#redirect_to root_path, notice: "Sorry to see you leave your herd :("
