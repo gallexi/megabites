@@ -1,6 +1,6 @@
 <%= form_for(@message = Message.new, :url => url_for(:controller => 'negotiation', :action => 'new_message', :negotiation_id => @negotiation.id), remote: true) do |m| %>
 
-		<%= m.text_area :body %>
+		<%= m.text_area :body %> </br>
 		<%= m.submit "Send" %>
 
 <% end %>

@@ -1,30 +1,33 @@
 </br></br>
 </br>
 </br>
-</br>
-</br>
-</br>
 
 
 <%= form_for(@negotiation, :url => url_for(:controller => 'negotiation', :action => 'create')) do |n| %>
-<div class="col-xs-6 col-lg-4">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-  <%= n.label :order_from %>:
-  <%= n.text_field :order_from %><br />
+<div class="col-xs-9 col-lg-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <%= n.label :order_from %>:
+      <div class="pull-right">
+	 <%= n.text_field :order_from %><br>
+      </div>
+    </div>
+    
+    <div class="panel-body">
+      <%= n.label :food_items %>:
+      <div class="pull-right">
+	<%= n.text_area :food_items %><br>
+      </div>
+      </br></br></br>
+      <%= n.label :rendezvous_point %>:
+      <div class="pull-right">
+	<%= n.text_field :rendezvous_point %><br>
+      </div>
+      </br></br>
+      <%= n.submit %>
+    </div>
+    <% end %>
+  </div><!--/.col-xs-6.col-lg-4-->
 </div>
-
-<div class="panel-body">
-  <%= n.label :food_items %>:
-  <%= n.text_area :food_items %><br />
-
-  <%= n.label :rendezvous_point %>:
-  <%= n.text_field :rendezvous_point %><br />
-
-  <%= n.submit %>
-  </div>
-<% end %>
-</div><!--/.col-xs-6.col-lg-4-->
-
               
             
