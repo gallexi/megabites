@@ -34,22 +34,22 @@ class NegotiationController < ApplicationController
 		@negotiation = Negotiation.find(params[:id])
 		
 		if not @negotiation.customers === ""
-			c = @negotiation.customers.split(",").map{ |s| s.to_i }
-			c.delete(current_user.id)
-                        @negotiation.customers = c.join(",") #changed
-                        @negotiation.save
 
-			if not @negotiation.customers === ""  #changed
-				@negotiation.user_id = c.first
-			else
-				@negotiation.destroy
-				@negotiation.save
-			end
+		  c = @negotiation.customers.split(",").map{ |s| s.to_i }
+		  c.delete(current_user.id)
+                  @negotiation.customers = c.join(",")
+                  
+		  if c.empty?
+		    @negotiation.destroy
+		  else
+                    @negotiation.user_id = c.first
+		    
+		  end
 		else
-			@negotiation.destroy
-			@negotiation.save
+		  @negotiation.destroy
 		end
-		redirect_to root_path, , notice: "Sorry to see you leave your herd :("
+                @negotiation.save
+		redirect_to root_path, notice: "Sorry to see you leave your herd :("
 	end
 
 	def show
