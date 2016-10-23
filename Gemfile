@@ -37,6 +37,8 @@ gem 'devise'
 gem 'nifty-generators'
 gem 'jquery-rails'
 
+gem 'private_pub'
+
 
 
 
