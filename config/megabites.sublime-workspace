@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"cu",
+				"current_user"
+			],
+			[
+				"ne",
+				"negotiation"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"res",
+				"respond_to"
+			],
+			[
+				"new",
+				"new_message"
+			],
+			[
+				"n",
+				"negotiation"
+			],
+			[
+				"lis",
+				"list-group-item"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
 				"find",
 				"find-formula-true-asst"
 			],
 			[
 				"pr",
 				"primitive"
-			],
-			[
-				"new",
-				"new-cur"
 			],
 			[
 				"ca",
@@ -236,10 +272,6 @@
 				"button_to"
 			],
 			[
-				"ne",
-				"nest_level"
-			],
-			[
 				"attr",
 				"attr_accessible"
 			],
@@ -384,10 +416,6 @@
 				"current_user"
 			],
 			[
-				"cu",
-				"current_user"
-			],
-			[
 				"border",
 				"border-color"
 			],
@@ -486,39 +514,238 @@
 			[
 				"pre",
 				"previous_step"
-			],
-			[
-				"par",
-				"params"
-			],
-			[
-				"ses",
-				"session"
-			],
-			[
-				"current",
-				"current_step"
-			],
-			[
-				"fir",
-				"first_step"
-			],
-			[
-				"post_",
-				"post_params"
-			],
-			[
-				"del",
-				"delete"
-			],
-			[
-				"su",
-				"submitted"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "database.yml",
+			"settings":
+			{
+				"buffer_size": 2975,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/Gemfile",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes.rb",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/devise/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/registration/registrations_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/registration/unlocks_controller.rb",
+			"settings":
+			{
+				"buffer_size": 558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/negotiation_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_message_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_new_message.js.erb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_message_row.html.erb",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/update_location.js.erb",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/_negotiations_list.html.erb",
+			"settings":
+			{
+				"buffer_size": 636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class User < ApplicationRecord\n  # Include default devise modules. Others available are:\n  # :confirmable, :lockable, :timeoutable and :omniauthable\n  devise :database_authenticatable, :registerable,\n         :recoverable, :rememberable, :trackable\n  belongs_to :organization\n  has_many :orders\n  has_many :negotiations\n  belongs_to :location\n  has_many :messages\n\n  \n\nend\n",
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/user.rb",
+			"file_size": 369,
+			"file_write_time": 1476545013000000,
+			"settings":
+			{
+				"buffer_size": 373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/organization.rb",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/order.rb",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/location.rb",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/negotiation.rb",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/message.rb",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/new_message.js.erb",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/stylesheets/application.css.scss",
+			"settings":
+			{
+				"buffer_size": 1147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/devise/sessions/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 962,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -548,6 +775,14 @@
 	},
 	"file_history":
 	[
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/javascripts/application.js",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/stylesheets/application.scss",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/db/migrate/20161015032829_create_negotiations.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/application_controller.rb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/new.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/_location_list.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/home.html.erb",
+		"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/app.html.erb",
 		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1476417485/tufts_homework_server/h/skapoo01/Desktop/comp105/hw4/README",
 		"/var/folders/bp/m8ngrmjd2tq34qdnk19q4qq00000gn/T/sublime-sftp-browse-1476417544/tufts_dell24_eecs_server/h/skapoo01/Desktop/comp105/hw2/build-prove-compare/README",
 		"/Users/siddharthkapoor/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -676,6 +911,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views",
 			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1",
 			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/vendor/images",
 			"/Users/siddharthkapoor/Desktop/Web Projects/dustandsepia.com v1/app/assets/images",
@@ -687,6 +923,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"null",
+			"root",
+			"console",
+			"devise",
+			"authenticab",
+			"devise",
+			"validatable",
+			"User",
+			"negotiations",
+			"devise",
 			"cdar",
 			"cur",
 			"primiti",
@@ -804,8 +1050,7 @@
 			"env",
 			"git",
 			"active",
-			"active_re",
-			"activerec"
+			"active_re"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -825,13 +1070,851 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "database.yml",
+					"settings":
+					{
+						"buffer_size": 2975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1217.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/Gemfile",
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1589,
+								1589
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 515.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes.rb",
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1516,
+								1516
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								640,
+								640
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/devise/registrations/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/registration/registrations_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								934,
+								934
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 713.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/registration/unlocks_controller.rb",
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/controllers/negotiation_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1809,
+								1809
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1550.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_message_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 13,
 			"sheets":
 			[
+				{
+					"buffer": 13,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_new_message.js.erb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/_message_row.html.erb",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/update_location.js.erb",
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/pages/_negotiations_list.html.erb",
+					"settings":
+					{
+						"buffer_size": 636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/organization.rb",
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/order.rb",
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/location.rb",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/negotiation.rb",
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/models/message.rb",
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/negotiation/new_message.js.erb",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/assets/stylesheets/application.css.scss",
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 371.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/Users/siddharthkapoor/Desktop/Web Projects/megabites/app/views/devise/sessions/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								954,
+								954
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 65.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   get 'negotiation/leave' => 'negotiation#leave'
 
+  delete 'negotiation/:id' => 'negotiation#destroy', as: 'destroy_negotiation'
+
   resources :negotiation
   post 'negotiation/new' => 'negotiation#create', as: 'negotiation2'
 

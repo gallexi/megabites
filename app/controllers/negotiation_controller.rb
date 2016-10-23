@@ -32,35 +32,24 @@ class NegotiationController < ApplicationController
 
 	def leave
 		@negotiation = Negotiation.find(params[:id])
-		if @negotiation.user_id == current_user.id
-			if not @negotiation.customers.nil?
-				c = @negotiation.customers.split(",").map{ |s| s.to_i }
-				c.delete(current_user.id)
-                                @negotiation.customers = c.join(",") #changed
-				if not @negotiation.customers === ""  #changed
-					@negotiation.user_id = c.first
-					redirect_to root_path
-				else
-					redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
-				end
+		
+		if not @negotiation.customers === ""
+			c = @negotiation.customers.split(",").map{ |s| s.to_i }
+			c.delete(current_user.id)
+                        @negotiation.customers = c.join(",") #changed
+                        @negotiation.save
+
+			if not @negotiation.customers === ""  #changed
+				@negotiation.user_id = c.first
 			else
-				redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
+				@negotiation.destroy
+				@negotiation.save
 			end
 		else
-			if not @negotiation.customers.nil?
-				c = @negotiation.customers.split(",").map{ |s| s.to_i }
-				c.delete(current_user.id)
-                                @negotiation.customers = c.join(",") #changed
-				if not @negotiation.customers === "" #changed
-					@negotiation.user_id = c.first
-					redirect_to root_path
-				else
-					redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
-				end
-			else
-				redirect_to negotiation_path(id: @negotiation.id), :method => "delete"
-			end
+			@negotiation.destroy
+			@negotiation.save
 		end
+		redirect_to root_path
 		#redirect_to root_path, notice: "Sorry to see you leave your herd :("
 	end
 
