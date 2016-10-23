@@ -49,8 +49,7 @@ class NegotiationController < ApplicationController
 			@negotiation.destroy
 			@negotiation.save
 		end
-		redirect_to root_path
-		#redirect_to root_path, notice: "Sorry to see you leave your herd :("
+		redirect_to root_path, , notice: "Sorry to see you leave your herd :("
 	end
 
 	def show
