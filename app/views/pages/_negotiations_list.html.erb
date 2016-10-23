@@ -8,7 +8,7 @@
               	<%= n.food_items %>
 
               	<% if (n.user_id == current_user.id or n.is_customer?(current_user.id)) %>
-              	<%= link_to 'Track', negotiation_path(id: n.id), class: "btn btn-danger"%>
+              	<%= link_to 'View', negotiation_path(id: n.id), class: "btn btn-danger"%>
               	<% else %>
               	<%= link_to 'Join', negotiation_join_path(id: n.id), class: "btn btn-default"%>
               	<% end %>
