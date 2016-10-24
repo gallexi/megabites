@@ -7,24 +7,24 @@
 <div class="col-xs-9 col-lg-4">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <%= n.label :order_from %>:
+      <%= n.label :order_from, "Order from:" %>
       <div class="pull-right">
 	 <%= n.text_field :order_from %><br>
       </div>
     </div>
     
     <div class="panel-body">
-      <%= n.label :food_items %>:
+      <%= n.label :food_items, "Notes:" %>
       <div class="pull-right">
 	<%= n.text_area :food_items %><br>
       </div>
       </br></br></br>
-      <%= n.label :rendezvous_point %>:
+      <%= n.label :rendezvous_point, "Meetup place:" %>
       <div class="pull-right">
 	<%= n.text_field :rendezvous_point %><br>
       </div>
       </br></br>
-      <%= n.submit %>
+      <%= n.submit "Create New Order" %>
     </div>
     <% end %>
   </div><!--/.col-xs-6.col-lg-4-->
