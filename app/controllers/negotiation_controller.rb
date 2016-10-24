@@ -38,17 +38,16 @@ class NegotiationController < ApplicationController
 		  c = @negotiation.customers.split(",").map{ |s| s.to_i }
 		  c.delete(current_user.id)
                   @negotiation.customers = c.join(",")
-                  
+                  @negotiation.save
 		  if c.empty?
 		    @negotiation.destroy
 		  else
                     @negotiation.user_id = c.first
-		    
+		    @negotiation.save
 		  end
 		else
 		  @negotiation.destroy
 		end
-                @negotiation.save
 		redirect_to root_path, notice: "Sorry to see you leave your herd :("
 	end
 
