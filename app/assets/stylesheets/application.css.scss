@@ -15,6 +15,8 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .signup {
 	text-align: left;
@@ -39,10 +41,90 @@
 	padding-left: 5%;
 }
 
-#login-panel-header {
-        background-color: white;
-        height: 50px;
+#main-toolbar paper-toolbar {
+        background-color: #194ec4;
+}
+
+#main-toolbar-text {
+        font-family: 'Montserrat';
+        font-size: 2.5rem;
+        padding-right: 0%;
+}
+
+#main-toolbar-icon {
+        width: 30px;
+        height: 30px;
+}
+
+#main-toolbar-logout-button iron-icon {
+        height: 30px;
+        width: 30px;
+}
+
+#login-body {
+        background: url(asset-path("login-background.png"));
+        background-size: cover;
+}
+
+#login-box {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 40%;
+        height: 40%;
+        background-color: #00174b;
+}
+
+#login-text {
+        color: white;
         text-align: center;
-        font-size: 30px;
-        color: black;
+        margin-top: 4%;
+        font-family: 'Montserrat';
+        font-size: 3rem;
+}
+
+paper-input.login-forms {
+        --paper-input-container-color: red;
+        --paper-input-container-focus-color: blue;
+        --paper-input-container-invalid-color: green;
+        --paper-input-container-input-color: black;
+}
+
+.login-forms {
+        margin: auto;
+        width: 80%;
+        height: 20%;
+        color: white;
+}
+
+.login-forms .floated-label-placeholder {
+        height: 0px;
+}
+
+#login-username {
+        margin-top: 7%;
+}
+
+#login-password {
+        margin-top: 1%;
+}
+
+#login-button {
+        background-color: white;
+        color: #00174b;
+        width: 20%;
+        height: 10%;
+        margin-top: 2%;
+        margin-left: 10%;
+        font-family: 'Montserrat';
+        font-size: 1.8rem;
+}
+
+.flash {
+      height: 0px;
+      width: 0px; 
+      margin: 0px 0px 0px 0px; 
 }
