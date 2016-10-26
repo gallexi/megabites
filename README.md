@@ -6,19 +6,33 @@ office spaces.
 Built for Tufts University Polyhack 2016.
 
 Team members:
+
 Lexi Galantino
+
 Siddharth Kapoor
+
 Sophie Danielpour
+
 Henri Schmidt
+
 Evgeni Dobranov
+
 Ashley Smith
+
 Hannah Voelker
 
-Technologies:
+
+
+Technologies and languages we're learning to work with:
+
 Ruby on Rails
-Bootstrap
+
+Bootstrap (Maybe switching soon to Polymer)
+
 HTML
+
 CSS
+
 JavaScript
-(JSON)
+
 Heroku
