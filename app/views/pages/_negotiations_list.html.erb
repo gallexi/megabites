@@ -1,19 +1,21 @@
-<% @negotiations.each do |n| %>
-	<div class="col-xs-6 col-lg-4">
-	<div class="panel panel-default">
-	<div class="panel-heading">
-		<p> Ordering from: <%= n.order_from %> </p>
-	</div>
-	<div class="panel-body">
-          <%= n.food_items %>
-		<br> <br>
-              	<% if (n.user_id == current_user.id or n.is_customer?(current_user.id)) %>
-              	<%= link_to 'View', negotiation_path(id: n.id), class: "btn btn-danger"%>
-              	<% else %>
-              	<%= link_to 'Join', negotiation_join_path(id: n.id), class: "btn btn-default"%>
-              	<% end %>
-              	
-        </div>
-	</div>
-        </div><!--/.col-xs-6.col-lg-4-->
+<div class="col-xs-6 offset-xs-6 col-sm-9 offset-sm-3">
+  <% @negotiations.each do |n| %>
+  <div class="col-sm-4">
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <p> Ordering from: <%= n.order_from %> </p>
+	    </div>
+	    <div class="panel-body">
+              <%= n.food_items %>
+	      <br> <br>
+              <% if (n.user_id == current_user.id or n.is_customer?(current_user.id)) %>
+              <%= link_to 'View', negotiation_path(id: n.id), class: "btn btn-danger"%>
+              <% else %>
+              <%= link_to 'Join', negotiation_join_path(id: n.id), class: "btn btn-default"%>
+              <% end %>
+              
+            </div>
+	  </div>
+        </div><!--/.col-xs-6.offset-xs-6.col-sm-9.offset-sm-3-->
 <% end %>
+</div>
